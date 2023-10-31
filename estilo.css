@@ -1,0 +1,157 @@
+body {
+    margin:0 30px;
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+nav > ul{
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    nav ul li{
+
+        margin-left: 30px;
+    }
+
+nav a:hover {
+
+    color: purple;
+
+    
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 180px;
+    height: 150px;
+
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+    
+.wrapper h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper p {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .box-1:hover{
+    transform: scale(1.08);
+    background-color: purple;
+}
+
+.wrapper .box-2:hover{
+    transform: scale(1.08);
+    background-color: purple;
+}
+
+
+.wrapper .box-3:hover{
+    transform: scale(1.08);
+    background-color: purple;
+
+}
+
+.center {
+    background-color: rgba(128, 0, 128, 0.141);
+     text-align: center;
+     border: 3px solid purple;
+     width: 300px;
+     height: 200px;
+     border-radius: 20px;
+
+}
+
+.direi{
+
+text-align: right;
+}
+
+.esque{
+
+text-align: left;
+}
+
+h1 {
+
+    color: white;
+}
+
+h2 {
+
+    color: purple;
+}
+
+h3{
+    color: purple;
+}
+
+p {
+    color: white;
+}
+
+footer img {
+
+    width: 20px;
+    height: 40px;
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+
+    margin: 30px;
+    text-align: center;
+}
+
+footer p {
+
+    margin-top: 0px;
+}
+
+.container {
+
+    padding: 0px 50px;
+}
+
+
+
+
